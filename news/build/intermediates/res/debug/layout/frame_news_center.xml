@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+
+    <FrameLayout
+        android:layout_below="@id/title_bar"
+        android:id="@+id/news_center_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/mLoadingView"
+            layout="@layout/layout_loading" />
+    </FrameLayout>
+
+</RelativeLayout><!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/layout/frame_news_center.xml -->

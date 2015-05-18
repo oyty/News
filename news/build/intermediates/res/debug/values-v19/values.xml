@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/values-v19/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@android:color/holo_red_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+</resources>

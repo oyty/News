@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="@color/color_half_transparent" />
+
+    <corners android:radius="3dp" />
+
+</shape><!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/drawable/round_corner_half_transparent.xml -->

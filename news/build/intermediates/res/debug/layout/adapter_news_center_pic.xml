@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/mPicImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        fresco:placeholderImage="@drawable/home_scroll_default"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:failureImage="@drawable/home_scroll_default"/>
+
+    <TextView
+        android:id="@+id/mPicLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/news_list_line"/>
+
+</LinearLayout>
+<!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/layout/adapter_news_center_pic.xml -->

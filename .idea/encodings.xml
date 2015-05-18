@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/widget/setting/BaseRowDescriptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/widget/setting/BaseRowView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/widget/setting/NormalRowView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/widget/setting/OnRowClickListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/widget/setting/RowDescriptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news/src/main/res/drawable-hdpi/pay_nofify_nav.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news/src/main/res/drawable/widget_general_row_selector.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news/src/main/res/layout/view_generate_row.xml" charset="UTF-8" />
+  </component>
+</project>
+

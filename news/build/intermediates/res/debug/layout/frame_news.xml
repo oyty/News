@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/news_tab_bg"
+        android:orientation="horizontal" >
+
+        <com.oyty.ui.widget.indicator.TabPageIndicator
+            android:id="@+id/indicator"
+            style="@style/Theme.PageIndicatorDefaults"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="2dp" />
+
+        <ImageView
+            android:id="@+id/iv_edit_cate"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/news_cate_arr" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout><!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/layout/frame_news.xml -->

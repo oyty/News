@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/xsearch_loading"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="700"
+    /><!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/anim/update_loading_progressbar_anim.xml -->

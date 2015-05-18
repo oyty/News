@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white"/>
+    <stroke android:width="1px" android:color="@android:color/darker_gray"/>
+</shape><!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/drawable/policy_bg.xml -->

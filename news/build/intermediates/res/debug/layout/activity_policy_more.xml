@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.oyty.ui.activity.PolicyMoreActivity">
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+
+    <FrameLayout
+        android:layout_below="@id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.oyty.ui.widget.pulltorefresh.PullToRefreshListView
+            android:id="@+id/ptrlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:cacheColorHint="@android:color/white"
+            android:divider="@drawable/news_list_line"
+            android:fadingEdge="none"
+            android:scrollbars="none" />
+
+        <include
+            android:id="@+id/mLoadingView"
+            layout="@layout/layout_loading" />
+    </FrameLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/layout/activity_policy_more.xml -->

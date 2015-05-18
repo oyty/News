@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <view
+        android:id="@+id/lv_item_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/white"
+        android:divider="@drawable/news_list_line"
+        android:fadingEdge="none"
+        class="com.oyty.ui.widget.pulltorefresh.PullToRefreshListView"
+        android:scrollbars="none" />
+
+<!--     <include -->
+<!--         android:id="@+id/loading_view"  -->
+<!--         layout="@layout/layout_loading" /> -->
+
+</FrameLayout><!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/layout/adapter_item_news.xml -->

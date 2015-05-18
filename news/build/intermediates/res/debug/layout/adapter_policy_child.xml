@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/menu_arr_select"/>
+
+    <TextView
+        android:id="@+id/mPolicyChildLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="17sp"/>
+
+</LinearLayout>
+<!-- From: file:/Users/oyty/Documents/workspace/workspace-syt/News/news/src/main/res/layout/adapter_policy_child.xml -->
