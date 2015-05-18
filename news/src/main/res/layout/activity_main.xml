@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" />
+
+    <RadioGroup
+        android:id="@+id/main_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottom_tab_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <RadioButton
+            android:id="@+id/mHomeRb"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_function"
+            android:text="@string/tab_function" />
+
+        <RadioButton
+            android:id="@+id/mNewsCenterRb"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_newscenter"
+            android:text="@string/tab_news_center" />
+
+        <RadioButton
+            android:id="@+id/mSmartServiceRb"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_smartservice"
+            android:text="@string/tab_smart_service" />
+
+        <RadioButton
+            android:id="@+id/mGovAffairsRb"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_govaffairs"
+            android:text="@string/tab_gov_affairs" />
+
+        <RadioButton
+            android:id="@+id/mSettingRb"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_setting"
+            android:text="@string/tab_setting" />
+    </RadioGroup>
+
+</LinearLayout>

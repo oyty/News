@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/mListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="10dp"
+            android:divider="@android:color/transparent"
+            android:childDivider="@android:color/transparent"
+            android:groupIndicator="@drawable/news_cate_arr"
+            android:padding="5dp" />
+
+        <include
+            android:id="@+id/mLoadingView"
+            layout="@layout/layout_loading" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

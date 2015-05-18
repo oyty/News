@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/policy_bg">
+
+    <RelativeLayout
+        android:id="@+id/mGroupLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mPolicyGroupLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/mGroupArr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/news_cate_arr" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/mChildLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mGroupLayout"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ListView
+                android:id="@+id/mChildListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="1dp"
+                android:divider="@android:color/darker_gray"
+                android:childDivider="@android:color/transparent"
+                android:layout_marginBottom="5dp"
+                android:groupIndicator="@drawable/news_cate_arr" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/mCheckMoreAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:textSize="18sp"
+                android:text="查看更多" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/mLoadingView"
+            layout="@layout/layout_loading" />
+    </FrameLayout>
+
+</RelativeLayout>

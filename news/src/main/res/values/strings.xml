@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">新闻客户端</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">dummy_content</string>
+    <string name="tab_function">首页</string>
+    <string name="tab_news_center">新闻中心</string>
+    <string name="tab_smart_service">智慧服务</string>
+    <string name="tab_gov_affairs">政务指南</string>
+    <string name="tab_setting">设置</string>
+    <string name="share_content">智慧北京新闻平台非常的好</string>
+    <string name="removeItem">删除</string>
+    <string name="smart_beijing">智慧北京</string>
+
+    <!-- 网络请求 -->
+    <string name="server_no_internet">没有网络连接</string>
+    <string name="server_timeout">网络连接超时</string>
+    <string name="server_other_error">无法连接到服务器,请检查网络连接</string>
+    <string name="server_parse_error">解析服务器返回的数据出错</string>
+    <string name="title_activity_policy_more">PolicyMoreActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

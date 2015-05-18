@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/mTopicDetailImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="center"
+                fresco:placeholderImage="@drawable/home_scroll_default"
+                fresco:placeholderImageScaleType="fitCenter"
+                fresco:failureImage="@drawable/home_scroll_default" />
+
+            <TextView
+                android:id="@+id/mTopicDetailLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:drawableBottom="@drawable/news_list_line"
+                android:textSize="16sp" />
+
+            <ListView
+                android:id="@+id/mTopicDetailListView"
+                android:layout_width="match_parent"
+                android:layout_height="318dp"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/mLoadingView"
+            layout="@layout/layout_loading" />
+    </FrameLayout>
+
+</LinearLayout>

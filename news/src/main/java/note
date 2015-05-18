@@ -1,0 +1,53 @@
+如果要控制一个业务，一定要找到最根上发生改变的地方，而且这个地方一般都可以通用
+
+网络数据缓存部分是一个大块
+	1.用一个标记，不能一直从网络获取数据，一次就ok了
+	2.缓存数据
+		sp缓存
+		文件缓存
+		数据库缓存
+		
+		这个代码是非常漂亮的，这样用户进入界面的时候，首先展示的是缓存界面，而不是一个加载进度条
+		如果网络正常，新数据更新就可以了
+		String result = SPUtils.getString(context, HMApi.NEWS_CENTER_CATEGORIES, "");
+		if(!TextUtils.isEmpty(result)){
+			Logger.i(TAG, "拿缓存数据");
+			processData(result);
+		}
+		getNewsCenterData();		
+
+如何正确的展示listview
+	1.首先从缓存里面去取数据
+	2.如果本地缓存里面有数据的话，先将缓存里面的数据加载到界面上（因为直接从缓存里面拿数据的话，速度会比较快）
+	3.如果有网络的话，从网络加载数据，覆盖掉原来的缓存数据，并将新数据缓存起来
+	4.如果当所有的listview的数据加载完后，还要判断那些数据是阅读过的
+	5.如果是新闻的话，需要在新闻bean里面添加一个is_read字段，标记该新闻是否被阅读过
+	6.在adapter的gaiview方法里面，if判断当前的这条新闻，为true设置一种颜色，为false设置另一种颜色
+
+底部tab页面的实现
+	1. ViewPager
+	2.Fragment
+	3.TabActivity
+		1>.谷歌已经废弃掉了这个控件
+		2>.如果使用这个控件的话，所有的tab页面都是activity，这样性能肯定会不好，而fragment就是为了替代他而生的
+			fragment是activity的一个片段，需要就添加进去，不需要了，就移除掉，非常的方便
+	4.ViewGroup
+
+
+NewsCenterPager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
