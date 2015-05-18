@@ -24,11 +24,6 @@
 	5.如果是新闻的话，需要在新闻bean里面添加一个is_read字段，标记该新闻是否被阅读过
 	6.在adapter的gaiview方法里面，if判断当前的这条新闻，为true设置一种颜色，为false设置另一种颜色
 
-底部tab页面的实现
-	1. ViewPager
-	2.Fragment
-	3.TabActivity
-		1>.谷歌已经废弃掉了这个控件
 
 
 
