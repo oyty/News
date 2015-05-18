@@ -29,8 +29,6 @@
 	2.Fragment
 	3.TabActivity
 		1>.谷歌已经废弃掉了这个控件
-		2>.如果使用这个控件的话，所有的tab页面都是activity，这样性能肯定会不好，而fragment就是为了替代他而生的
-			fragment是activity的一个片段，需要就添加进去，不需要了，就移除掉，非常的方便
 
 
 
