@@ -94,7 +94,12 @@ public class SettingPager extends BasePager implements OnRowClickListener {
     }
 
     private void clearCache() {
-
+        boolean flag = mCacheDao.clearCache();
+        if(flag) {
+            ToastUtil.showToast(context, "缓存清理成功！");
+        } else {
+            ToastUtil.showToast(context, "缓存清理失败！");
+        }
     }
 
     private void guideApp() {

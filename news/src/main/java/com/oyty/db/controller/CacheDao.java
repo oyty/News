@@ -58,4 +58,17 @@ public class CacheDao {
             e.printStackTrace();
         }
     }
+
+    /**
+     * 清除缓存数据表数据
+     */
+    public boolean clearCache() {
+        try {
+            int count = mCacheDao.queryForAll().size();
+            return mCacheDao.delete(mCacheDao.queryForAll()) == count ? true : false;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
 }

@@ -27,28 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aace04e-ec8e-43c6-bdef-f31e36bc574d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/db/bean/Cache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDbHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/base/BasePager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/base/BasePager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/base/Config.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/base/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/base/Constants.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/base/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/GovAffairsPager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/GovAffairsPager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/activity/GuideActivity.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/activity/GuideActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/HomePager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/HomePager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/NewsCategoryPager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/NewsCategoryPager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/NewsCenterPager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/NewsCenterPager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/activity/NewsDetailActivity.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/activity/NewsDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/PicPager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/PicPager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDao.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SettingPager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SettingPager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SmartServicePager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SmartServicePager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/activity/SplashActivity.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/activity/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/TopicPager.java" afterPath="$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/TopicPager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/build.gradle" afterPath="$PROJECT_DIR$/news/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/news.iml" afterPath="$PROJECT_DIR$/news/news.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="348a3efe-f5e1-4fff-8634-6c6a4d910f55" name="ignore" comment="" />
@@ -81,23 +61,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CacheDbHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDbHelper.java">
+      <file leaf-file-name="SettingPager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SettingPager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1700">
-              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="1955">
+              <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CacheDao.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CacheDao.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="1020">
-              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6031128" vertical-offset="710" max-vertical-offset="1241">
+              <caret line="67" column="84" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -106,11 +84,9 @@
       <file leaf-file-name="Cache.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/db/bean/Cache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="782">
+            <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="986">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +94,7 @@
       <file leaf-file-name="NewsCenterPager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/NewsCenterPager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2009" max-vertical-offset="2720">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="3179">
               <caret line="156" column="32" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="32" />
               <folding />
             </state>
@@ -128,7 +104,7 @@
       <file leaf-file-name="NewsPager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/NewsPager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1938">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2312">
               <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
               <folding />
             </state>
@@ -138,7 +114,7 @@
       <file leaf-file-name="NewsCategoryPager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/NewsCategoryPager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1818" max-vertical-offset="3944">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2448" max-vertical-offset="4471">
               <caret line="144" column="82" selection-start-line="144" selection-start-column="82" selection-end-line="144" selection-end-column="82" />
               <folding />
             </state>
@@ -148,17 +124,17 @@
       <file leaf-file-name="PicPager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/PicPager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1036" max-vertical-offset="2363">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="2703">
               <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GovAffairsPager.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GovAffairsPager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/GovAffairsPager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09580839" vertical-offset="1567" max-vertical-offset="3740">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1567" max-vertical-offset="3740">
               <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
               <folding />
             </state>
@@ -168,7 +144,7 @@
       <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-21/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2345" max-vertical-offset="5848">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2771" max-vertical-offset="6103">
               <caret line="163" column="13" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
               <folding />
             </state>
@@ -178,7 +154,7 @@
       <file leaf-file-name="HomePager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/HomePager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2601">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="3111">
               <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
               <folding />
             </state>
@@ -2198,7 +2174,6 @@
         <option value="$PROJECT_DIR$/news/src/main/res/layout/frame_setting.xml" />
         <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/activity/GuideActivity.java" />
         <option value="$PROJECT_DIR$/news/src/main/res/layout/layout_title_bar.xml" />
-        <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SettingPager.java" />
         <option value="$PROJECT_DIR$/news/src/main/java/note" />
         <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/RegionDao.java" />
         <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDbHelper.java" />
@@ -2210,9 +2185,10 @@
         <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/TopicPager.java" />
         <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SmartServicePager.java" />
         <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/db/bean/Cache.java" />
-        <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDao.java" />
         <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/newscenter/NewsCategoryPager.java" />
         <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/GovAffairsPager.java" />
+        <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SettingPager.java" />
+        <option value="$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDao.java" />
       </list>
     </option>
   </component>
@@ -2254,7 +2230,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -2993,7 +2969,11 @@
       <created>1431937052948</created>
       <updated>1431937052948</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="添加数据库缓存&#10;">
+      <created>1432089007699</created>
+      <updated>1432089007699</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3011,14 +2991,14 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26375178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23413259" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23413259" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.19627507" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25358167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25358167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3036,15 +3016,15 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36581922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3057,8 +3037,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2641243" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12853107" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -3096,7 +3076,8 @@
     <MESSAGE value="修改note文件3&#10;" />
     <MESSAGE value="修改note文件4&#10;" />
     <MESSAGE value="修改note文件5&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改note文件5&#10;" />
+    <MESSAGE value="添加数据库缓存&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加数据库缓存&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3379,14 +3360,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SettingPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2057">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/fragment/ContentFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="2448">
@@ -3399,7 +3372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3407,7 +3379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="782">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3487,7 +3458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16152018" vertical-offset="0" max-vertical-offset="1122">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3495,9 +3465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1700">
           <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3505,16 +3473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="782">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="1020">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -3569,8 +3527,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/GovAffairsPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09580839" vertical-offset="1567" max-vertical-offset="3740">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1567" max-vertical-offset="3740">
           <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/ui/pager/SettingPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="1955">
+          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/src/main/java/com/oyty/db/controller/CacheDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6031128" vertical-offset="710" max-vertical-offset="1241">
+          <caret line="67" column="84" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
           <folding />
         </state>
       </provider>
