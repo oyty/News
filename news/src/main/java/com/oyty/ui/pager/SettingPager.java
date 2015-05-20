@@ -122,7 +122,7 @@ public class SettingPager extends BasePager implements OnRowClickListener {
         builder.setItems(textSizeStr, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                SPUtils.putInt(context, Constants.preferences.TEXT_SIZE, i);
+                SPUtils.putInt(context, Constants.Preferences.TEXT_SIZE, i);
             }
         });
         builder.show();

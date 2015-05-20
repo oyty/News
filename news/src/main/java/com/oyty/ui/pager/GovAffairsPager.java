@@ -24,7 +24,6 @@ import com.oyty.ui.activity.PolicyMoreActivity;
 import com.oyty.ui.adapter.PolicyAdapter;
 import com.oyty.ui.adapter.PolicyChildAdapter;
 import com.oyty.utils.GsonUtils;
-import com.oyty.utils.SPUtils;
 import com.oyty.utils.ToastUtil;
 
 import java.util.ArrayList;
@@ -88,6 +87,12 @@ public class GovAffairsPager extends BasePager implements AdapterView.OnItemClic
                     viewHolder.mGroupArr.setBackgroundResource(R.drawable.gov_affair_arr_bottom);
                 }
                 mGroupPosition = groupPosition;
+
+                String result = mCacheDao.getCache(policyLists.get(mCurrentPosition).children.get(groupPosition).url);
+                if(!TextUtils.isEmpty(result)) {
+                    processChildData(GsonUtils.json2Bean(result, PolicyChildDataBean.class).policy);
+                }
+
                 getPolicyChildData(policyLists.get(mCurrentPosition).children.get(groupPosition).url);
             }
         };
@@ -132,13 +137,15 @@ public class GovAffairsPager extends BasePager implements AdapterView.OnItemClic
         context.startActivity(intent);
     }
 
-    private void getPolicyChildData(String url) {
+    private void getPolicyChildData(final String url) {
         PolicyChildNetHelper netHelper = new PolicyChildNetHelper(context);
         netHelper.setUrl(url);
         netHelper.setOnResponseistener(new OnNetworkDataCallBack<PolicyChildDataBean>() {
             @Override
             public void onNetworkDataSuccess(PolicyChildDataBean result) {
                 processChildData(result.policy);
+
+                mCacheDao.putCache(url, GsonUtils.bean2Json(result));
             }
 
             @Override
@@ -172,7 +179,8 @@ public class GovAffairsPager extends BasePager implements AdapterView.OnItemClic
 
     @Override
 	public void initData() {
-		String policyStr = SPUtils.getString(context, Constants.preferences.POLICY_NEWS, "");
+		String policyStr = mCacheDao.getCache(Constants.Preferences.POLICY_NEWS);
+
 		if(!TextUtils.isEmpty(policyStr)) {
 			processData(GsonUtils.json2Array(policyStr, new TypeToken<List<PolicyDataModel>>(){}));
 		}
@@ -187,7 +195,7 @@ public class GovAffairsPager extends BasePager implements AdapterView.OnItemClic
 			public void onNetworkDataSuccess(List<PolicyDataModel> result) {
 				processData(result);
 
-				SPUtils.putString(context, Constants.preferences.POLICY_NEWS, GsonUtils.array2Json(result));
+                mCacheDao.putCache(Constants.Preferences.POLICY_NEWS, GsonUtils.array2Json(result));
 			}
 
 			@Override

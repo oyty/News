@@ -18,7 +18,6 @@ import com.oyty.ui.adapter.NewsCenterTopicAdapter;
 import com.oyty.ui.widget.pulltorefresh.PullToRefreshBase;
 import com.oyty.utils.AppUtil;
 import com.oyty.utils.GsonUtils;
-import com.oyty.utils.SPUtils;
 import com.oyty.utils.ToastUtil;
 
 import java.util.ArrayList;
@@ -91,7 +90,8 @@ public class TopicPager extends BaseListView {
 
 	@Override
 	public void initData() {
-        String newsCenterTopic = SPUtils.getString(context, Constants.preferences.NEWS_CENTER_TOPIC, "");
+        String newsCenterTopic = mCacheDao.getCache(Constants.Preferences.NEWS_CENTER_TOPIC);
+
         if(!TextUtils.isEmpty(newsCenterTopic)) {
             processData(GsonUtils.json2Bean(newsCenterTopic, NewsCenterTopicBean.class), true);
         }
@@ -107,7 +107,7 @@ public class TopicPager extends BaseListView {
             public void onNetworkDataSuccess(NewsCenterTopicBean result) {
                 processData(result, isReferesh);
 
-                SPUtils.putString(context, Constants.preferences.NEWS_CENTER_TOPIC, GsonUtils.bean2Json(result));
+                mCacheDao.putCache(Constants.Preferences.NEWS_CENTER_TOPIC, GsonUtils.bean2Json(result));
             }
 
             @Override

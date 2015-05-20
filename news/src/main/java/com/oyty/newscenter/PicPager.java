@@ -18,7 +18,6 @@ import com.oyty.ui.adapter.NewsCenterPicAdapter;
 import com.oyty.ui.widget.pulltorefresh.PullToRefreshBase;
 import com.oyty.utils.AppUtil;
 import com.oyty.utils.GsonUtils;
-import com.oyty.utils.SPUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -91,7 +90,8 @@ public class PicPager extends BaseListView {
 
 	@Override
 	public void initData() {
-        String newsCenterPic = SPUtils.getString(context, Constants.preferences.NEWS_CENTER_PIC, "");
+        String newsCenterPic = mCacheDao.getCache(Constants.Preferences.NEWS_CENTER_PIC);
+
         if(!TextUtils.isEmpty(newsCenterPic)) {
             processData(GsonUtils.json2Bean(newsCenterPic, NewsCenterPicBean.class), true);
         } else {
@@ -108,7 +108,7 @@ public class PicPager extends BaseListView {
             public void onNetworkDataSuccess(NewsCenterPicBean result) {
                 processData(result, isRefresh);
 
-                SPUtils.putString(context, Constants.preferences.NEWS_CENTER_PIC, GsonUtils.bean2Json(result));
+                mCacheDao.putCache(Constants.Preferences.NEWS_CENTER_PIC, GsonUtils.bean2Json(result));
             }
 
             @Override

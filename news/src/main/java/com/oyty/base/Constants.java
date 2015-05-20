@@ -1,5 +1,7 @@
 package com.oyty.base;
 
+import android.provider.BaseColumns;
+
 /**
  * Created by oyty on 5/4/15.
  */
@@ -11,7 +13,7 @@ public class Constants {
     public static final String TOPIC_NEWS_TITLE = "topic_news_title";
     public static final String SETTING_GUIDE = "setting_guide";
 
-    public interface preferences {
+    public interface Preferences {
         public static final String IS_LOAD_IMAGE = "is_load_image";
 
         public static final String NEWS_CENTER_CATEGORIES = "news_center_categories";
@@ -23,6 +25,11 @@ public class Constants {
         public static final String NEWS_CENTER_TOPIC = "news_center_topic";
         public static final String POLICY_NEWS = "policy_news";
         public static final String TEXT_SIZE = "text_size";
+    }
+
+    public interface CacheColumns extends BaseColumns {
+        String CACHEKEY = "cacheKey";
+        String CACHEVALUE = "cacheValue";
     }
 
 }

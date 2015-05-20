@@ -24,4 +24,5 @@ dependencies {
     compile 'com.facebook.fresco:fresco:0.4.0'
     compile 'com.mcxiaoke.volley:library:1.0.15'
     compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.j256.ormlite:ormlite-android:4.48'
 }

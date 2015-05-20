@@ -132,7 +132,7 @@ public class GuideActivity extends Activity implements OnPageChangeListener, OnC
             return;
         }
         //标记非第一次进入
-        SPUtils.putBoolean(this, Constants.preferences.IS_FIRST, false);
+        SPUtils.putBoolean(this, Constants.Preferences.IS_FIRST, false);
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();

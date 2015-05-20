@@ -17,7 +17,6 @@ import com.oyty.newscenter.TopicPager;
 import com.oyty.ui.activity.MainActivity;
 import com.oyty.utils.GsonUtils;
 import com.oyty.utils.LogUtil;
-import com.oyty.utils.SPUtils;
 import com.oyty.utils.ToastUtil;
 
 import java.util.ArrayList;
@@ -85,7 +84,7 @@ public class NewsCenterPager extends BasePager {
          * 这样，如果有网络，缓存赋值后，获取的新的数据覆盖
          * 如果没有网络，显示的就是缓存数据，这样体验好
          */
-        String result = SPUtils.getString(context, Constants.preferences.NEWS_CENTER_CATEGORIES, "");
+        String result = mCacheDao.getCache(Constants.Preferences.NEWS_CENTER_CATEGORIES);
 
         if (!TextUtils.isEmpty(result)) {
             LogUtil.getLogger().i(LOG_TAG, "拿缓存数据");
@@ -108,7 +107,7 @@ public class NewsCenterPager extends BasePager {
                 processData(newsCenterBean);
 
                 //将数据缓存起来
-                SPUtils.putString(context, Constants.preferences.NEWS_CENTER_CATEGORIES, GsonUtils.bean2Json(newsCenterBean));
+                mCacheDao.putCache(Constants.Preferences.NEWS_CENTER_CATEGORIES, GsonUtils.bean2Json(newsCenterBean));
             }
 
             @Override

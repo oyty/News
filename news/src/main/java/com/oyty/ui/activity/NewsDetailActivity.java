@@ -76,7 +76,7 @@ public class NewsDetailActivity extends BaseActivity implements OnClickListener 
         initTitle();
         mWebView.loadUrl(mUrl);
 
-        switchTextSize(SPUtils.getInt(mContext, Constants.preferences.TEXT_SIZE, 1));
+        switchTextSize(SPUtils.getInt(mContext, Constants.Preferences.TEXT_SIZE, 1));
     }
 
     class CustomWebChromeClient extends WebChromeClient {

@@ -6,6 +6,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.oyty.db.controller.CacheDao;
 import com.oyty.news.R;
 import com.oyty.ui.activity.MainActivity;
 
@@ -21,8 +22,11 @@ public abstract class BasePager {
     public TextView mTitleLabel;
     public ImageButton mLeftAction;
 
+    protected CacheDao mCacheDao;
+
 	public BasePager(Context context){
 		this.context = context;
+        mCacheDao = new CacheDao(context);
 		mSM = ((MainActivity)context).getSlidingMenu();
 		view = initView();
         mLoadingView = view.findViewById(R.id.mLoadingView);

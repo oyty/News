@@ -19,7 +19,6 @@ import com.oyty.ui.activity.NewsDetailActivity;
 import com.oyty.ui.adapter.ServiceDataAdapter;
 import com.oyty.utils.GsonUtils;
 import com.oyty.utils.LogUtil;
-import com.oyty.utils.SPUtils;
 import com.oyty.utils.ToastUtil;
 
 import java.util.ArrayList;
@@ -67,7 +66,7 @@ public class SmartServicePager extends BasePager implements AdapterView.OnItemCl
 
 	@Override
 	public void initData() {
-        String result = SPUtils.getString(context, Constants.preferences.SMART_SERVICE_CATEGORIES, "");
+        String result = mCacheDao.getCache(Constants.Preferences.SMART_SERVICE_CATEGORIES);
 
         if (!TextUtils.isEmpty(result)) {
             LogUtil.getLogger().i(LOG_TAG, "拿缓存数据");
@@ -85,7 +84,7 @@ public class SmartServicePager extends BasePager implements AdapterView.OnItemCl
             public void onNetworkDataSuccess(SmartServiceBean result) {
                 processData(result);
 
-                SPUtils.putString(context, Constants.preferences.SMART_SERVICE_CATEGORIES, GsonUtils.bean2Json(result));
+                mCacheDao.putCache(Constants.Preferences.SMART_SERVICE_CATEGORIES, GsonUtils.bean2Json(result));
             }
 
             @Override

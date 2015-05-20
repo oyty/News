@@ -23,7 +23,6 @@ import com.oyty.ui.widget.sliderimage.SliderLayout;
 import com.oyty.ui.widget.sliderimage.SliderTypes.BaseSliderView;
 import com.oyty.ui.widget.sliderimage.SliderTypes.TextSliderView;
 import com.oyty.utils.GsonUtils;
-import com.oyty.utils.SPUtils;
 import com.oyty.utils.ToastUtil;
 
 import java.util.HashMap;
@@ -36,6 +35,7 @@ public class HomePager extends BasePager implements BaseSliderView.OnSliderClick
     private SliderLayout mSliderLayout;
     private GridView mGridView;
     private ServiceDataAdapter mAdapter;
+
 
     public HomePager(Context context) {
         super(context);
@@ -63,8 +63,9 @@ public class HomePager extends BasePager implements BaseSliderView.OnSliderClick
     public void initData() {
         initTitleBar();
 
-        String sliderNewsStr = SPUtils.getString(context, Constants.preferences.HOME_SLIDER_NEWS, "");
-        String gridNewsStr = SPUtils.getString(context, Constants.preferences.HOME_GRID_NEWS, "");
+        String sliderNewsStr = mCacheDao.getCache(Constants.Preferences.HOME_SLIDER_NEWS);
+        String gridNewsStr = mCacheDao.getCache(Constants.Preferences.HOME_GRID_NEWS);
+
         if (!TextUtils.isEmpty(sliderNewsStr)) {
             initSliderImage(GsonUtils.json2Bean(sliderNewsStr, HomeSliderBean.class).data);
         }
@@ -87,7 +88,7 @@ public class HomePager extends BasePager implements BaseSliderView.OnSliderClick
             public void onNetworkDataSuccess(HomeSliderBean result) {
                 initSliderImage(result.data);
 
-                SPUtils.putString(context, Constants.preferences.HOME_SLIDER_NEWS, GsonUtils.bean2Json(result));
+                mCacheDao.putCache(Constants.Preferences.HOME_SLIDER_NEWS, GsonUtils.bean2Json(result));
             }
 
             @Override
@@ -134,7 +135,7 @@ public class HomePager extends BasePager implements BaseSliderView.OnSliderClick
             public void onNetworkDataSuccess(List<ServiceDataModel> result) {
                 initGridView(result);
 
-                SPUtils.putString(context, Constants.preferences.HOME_GRID_NEWS, GsonUtils.array2Json(result));
+                mCacheDao.putCache(Constants.Preferences.HOME_GRID_NEWS, GsonUtils.bean2Json(result));
             }
 
             @Override

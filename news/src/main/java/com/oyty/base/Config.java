@@ -15,6 +15,6 @@ public class Config {
      * @return
      */
     public boolean isLoadImage(Context context) {
-        return SPUtils.getBoolean(context, Constants.preferences.IS_LOAD_IMAGE, true);
+        return SPUtils.getBoolean(context, Constants.Preferences.IS_LOAD_IMAGE, true);
     }
 }

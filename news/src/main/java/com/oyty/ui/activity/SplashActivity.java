@@ -23,7 +23,7 @@ public class SplashActivity extends Activity {
 		
 		new Handler(){
 			public void handleMessage(android.os.Message msg) {
-				boolean flag = SPUtils.getBoolean(SplashActivity.this, Constants.preferences.IS_FIRST, true);
+				boolean flag = SPUtils.getBoolean(SplashActivity.this, Constants.Preferences.IS_FIRST, true);
 				Intent intent = null;
 				if(flag){
 					//第一次进入程序,进入向导界面

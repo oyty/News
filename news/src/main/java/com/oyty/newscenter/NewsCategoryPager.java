@@ -25,6 +25,7 @@ import com.oyty.ui.widget.sliderimage.SliderLayout;
 import com.oyty.ui.widget.sliderimage.SliderTypes.BaseSliderView;
 import com.oyty.ui.widget.sliderimage.SliderTypes.TextSliderView;
 import com.oyty.utils.CommonUtil;
+import com.oyty.utils.GsonUtils;
 import com.oyty.utils.LogUtil;
 import com.oyty.utils.ToastUtil;
 
@@ -139,11 +140,16 @@ public class NewsCategoryPager extends BasePager implements BaseSliderView.OnSli
 
     @Override
     public void initData() {
+        String cache = mCacheDao.getCache(url);
+        if(!TextUtils.isEmpty(cache)) {
+            processData(GsonUtils.json2Bean(cache, NewsCategoryBean.class), true);
+        }
+
         //传递过过来的是url，所以先请求网络数据
         getNewsCategoryData(url, true);
     }
 
-    private void getNewsCategoryData(String url, final boolean is_refresh) {
+    private void getNewsCategoryData(final String url, final boolean is_refresh) {
         NewsCategoryNetHelper netHelper = new NewsCategoryNetHelper(context);
         netHelper.setUrl(url);
         netHelper.setOnResponseListener(new OnNetworkDataCallBack<NewsCategoryBean>() {
@@ -152,6 +158,8 @@ public class NewsCategoryPager extends BasePager implements BaseSliderView.OnSli
                 LogUtil.getLogger().i(LOG_TAG, result);
 
                 processData(result, is_refresh);
+
+                mCacheDao.putCache(url, GsonUtils.bean2Json(result));
             }
 
             @Override

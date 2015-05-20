@@ -2,41 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/oyty/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-9523684080c3f9f25dacaa63bc7e8d4bd39154d6.jar" />
-    </item>
-    <item
-        jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.4.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d7e17662c3c6d3ca342a57652947bbcd8a67bc9a">
-        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-3bad93b1790baf2ea7cc7cfc8f4594ac52f5ac0a.jar" />
-    </item>
-    <item
-        jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.4.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="df1d19ffd5bf419ac873e46e38dd8ad2ad418d34">
-        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-8a84d54eaae03bf85451550922d2c662e032d4a1.jar" />
-    </item>
-    <item
-        jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/News/menu_library/unspecified/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="94d1e2f12ad1238b4994c4b0fa26cb2fd9d5097f">
-        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-7ca67bd1286154bf0ebbbd1cb4b8772d7fb56174.jar" />
-    </item>
-    <item
-        jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-546c3f66b0da7d9c2fe1b7f222a4cf0313f41702.jar" />
-    </item>
-    <item
         jar="/Users/oyty/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -58,6 +23,13 @@
         <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-6c880603c9b5740617785750f15d685676abbadb.jar" />
     </item>
     <item
+        jar="/Users/oyty/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-9523684080c3f9f25dacaa63bc7e8d4bd39154d6.jar" />
+    </item>
+    <item
         jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.4.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -65,11 +37,39 @@
         <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-1997c5b48ffe8bf0142fae7ccb824cbee1206ab9.jar" />
     </item>
     <item
+        jar="/Users/oyty/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/ormlite-core-4.48-5417e9594ff378a2a6e56104fa215261d3019a2e.jar" />
+    </item>
+    <item
         jar="/Users/oyty/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.15/9093a362d18c5f81f58e49d86dece57d9b6e1cb7/library-1.0.15.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="9093a362d18c5f81f58e49d86dece57d9b6e1cb7">
         <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/library-1.0.15-b26edede6a431e853901f1c372b46d198440f2b6.jar" />
+    </item>
+    <item
+        jar="/Users/oyty/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/ormlite-android-4.48-232fbe043160e16790a3dc122914899c4b667115.jar" />
+    </item>
+    <item
+        jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.4.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d7e17662c3c6d3ca342a57652947bbcd8a67bc9a">
+        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-3bad93b1790baf2ea7cc7cfc8f4594ac52f5ac0a.jar" />
+    </item>
+    <item
+        jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.4.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="df1d19ffd5bf419ac873e46e38dd8ad2ad418d34">
+        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-8a84d54eaae03bf85451550922d2c662e032d4a1.jar" />
     </item>
     <item
         jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
@@ -86,11 +86,25 @@
         <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/library-2.4.0-8948e4d1a72b186abc6bb1135312669838fd595e.jar" />
     </item>
     <item
+        jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/News/menu_library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="94d1e2f12ad1238b4994c4b0fa26cb2fd9d5097f">
+        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-7ca67bd1286154bf0ebbbd1cb4b8772d7fb56174.jar" />
+    </item>
+    <item
         jar="/Users/oyty/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
         <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/gson-2.3-52314f044412497313a6b0cfdfe43fe66b79e2e3.jar" />
+    </item>
+    <item
+        jar="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/oyty/Documents/workspace/workspace-syt/News/news/build/intermediates/pre-dexed/debug/classes-546c3f66b0da7d9c2fe1b7f222a4cf0313f41702.jar" />
     </item>
 
 </items>
